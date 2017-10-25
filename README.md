@@ -23,7 +23,11 @@ On development data set the system achieves 0.78 segment error rate and 51.4% F-
 
 Based on the cnn model, use its feature extraction, label smoothing...
 
-We use the deep random forest method to solve the dcase17 task3.
+We use the deep random forest method to solve the dcase17 task3 Sound event detection 
+in real life audio.
 
-Sound Event Detection Using Deep Random Forest
+Here is our technical report
+http://www.cs.tut.fi/sgn/arg/dcase2017/documents/challenge_technical_reports/DCASE2017_Yu_162.pdf
+
+The deep random forest code will public soon.
 
