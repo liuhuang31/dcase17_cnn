@@ -17,6 +17,7 @@ On development data set the system achieves 0.78 segment error rate and 51.4% F-
   * *task3_cnn.py* - run CNN based system training and testing
 
   * *src/make_speed.sh* - speed perturbation
+  
 =======
 # dcase17_drf
 
