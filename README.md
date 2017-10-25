@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CNN based DCASE 2016 sound event detection system 
 
 Sound event detection system submitted to [DCASE 2016](http://www.cs.tut.fi/sgn/arg/dcase2016/task-sound-event-detection-in-real-life-audio) (detection and classification of acoustic scenes and events) challenge. 
@@ -19,3 +20,7 @@ Technical details are descibed in the [challenge report](http://www.cs.tut.fi/sg
   * *task3_cnn.py* - run CNN based system training and testing
 
   * *src/make_speed.sh* - speed perturbation
+=======
+# dcase17_drf
+Sound Event Detection Using Deep Random Forest
+>>>>>>> 5d9a137c1bdd13c6974630b135790b27dcb8f3ff
