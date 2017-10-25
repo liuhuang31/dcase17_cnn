@@ -1,13 +1,10 @@
-<<<<<<< HEAD
-# CNN based DCASE 2016 sound event detection system 
+# CNN based DCASE 2017 sound event detection system 
 
-Sound event detection system submitted to [DCASE 2016](http://www.cs.tut.fi/sgn/arg/dcase2016/task-sound-event-detection-in-real-life-audio) (detection and classification of acoustic scenes and events) challenge. 
+The original code is here https://github.com/gorinars/dcase16-cnn
 
-Convolutional neural network is used for detecting and classifying polyphonic events in a long temporal context of filter bank acoustic features. Training data are augmented vi sox speed perturbation.
+For dcase2017 challenge, which i changed some places : download the Dcase17 dataset, change the feature parameter.
 
-On development data set the system achieves 0.84% segment error rate (7.7% relative imporment compared to baseline) 36.3% F-measure (55.1 relative better than baseline system). 
-
-Technical details are descibed in the [challenge report](http://www.cs.tut.fi/sgn/arg/dcase2016/documents/challenge_technical_reports/Task3/Gorin_2016_task3.pdf). Detailed results summary on development and evaluation audios are also [available](http://www.cs.tut.fi/sgn/arg/dcase2016/task-results-sound-event-detection-in-real-life-audio):
+On development data set the system achieves 0.78 segment error rate and 51.4% F-measure. 
 
 ## Basic usage
 
@@ -22,5 +19,10 @@ Technical details are descibed in the [challenge report](http://www.cs.tut.fi/sg
   * *src/make_speed.sh* - speed perturbation
 =======
 # dcase17_drf
+
+Based on the cnn model, use its feature extraction, label smoothing...
+
+We use the deep random forest method to solve the dcase17 task3.
+
 Sound Event Detection Using Deep Random Forest
->>>>>>> 5d9a137c1bdd13c6974630b135790b27dcb8f3ff
+
