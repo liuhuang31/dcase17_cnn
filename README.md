@@ -21,8 +21,7 @@ On development data set the system achieves 0.78 segment error rate and 51.4% F-
 =======
 # dcase17_drf
 
-Based on the cnn model, use its feature extraction, label smoothing...
-
+Based on the cnn model, we use its feature extraction, label smoothing... to build our model.
 We use the deep random forest method to solve the dcase17 task3 Sound event detection 
 in real life audio.
 
